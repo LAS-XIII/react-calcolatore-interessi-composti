@@ -1,0 +1,50 @@
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  background-color: #333;
+  width: 100vw;
+  height: 100vh;
+}
+
+.cruscotto {
+  background-color: #ddd;
+  border-radius: 15px;
+  width: 40%;
+  min-width: 400px;
+  height: 90%;
+  min-height: 700px;
+  padding: 1rem 0rem;
+}
+
+.column {
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.title, .form, .result {
+  height: 10%;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.form {
+  height: 60%;
+}
+
+.result {
+  height: 25%;
+}
+
+.btn {
+  background-color: #333;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 5px;
+}
